@@ -1,0 +1,79 @@
+#saini bots - Updated Working Configuration
+# Core Telegram Bot Dependencies
+pyrogram==2.0.106
+pyrofork==2.3.68
+pyromod==1.5
+TgCrypto==1.2.5
+pyaes==1.6.1
+PySocks==1.7.1
+
+# Web Framework (Flask Ecosystem - Compatible Versions)
+Flask==1.1.2
+Jinja2==2.11.3
+werkzeug==1.0.1
+itsdangerous==1.1.0
+MarkupSafe==1.1.1
+
+# Async and File Operations
+aiofiles==24.1.0
+aiohttp>=3.12.15
+uvloop>=0.21.0
+aiodns>=3.5.0
+
+# Database and Storage
+motor>=3.7.1
+umongo==3.1.0
+sqlalchemy>=2.0.43
+
+# Security and Authentication
+cryptography>=45.0.7
+pycryptodome>=3.23.0
+pycryptodomex>=3.23.0
+PyJWT>=2.10.1
+pyopenssl>=25.1.0
+python-dotenv==1.0.0
+
+# Google Services
+google-auth>=2.40.3
+google-auth-oauthlib>=1.2.2
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.181.0
+
+# Media Processing
+yt-dlp>=2025.9.5
+youtube-dl>=2021.12.17
+pytube>=15.0.0
+ffmpeg-python>=0.2.0
+ffmpeg>=1.4
+mutagen>=1.47.0
+m3u8>=6.0.0
+
+# Web Scraping and Parsing
+beautifulsoup4>=4.13.5
+cloudscraper>=1.2.71
+requests>=2.32.5
+lxml>=6.0.1
+
+# Utilities
+pillow>=11.3.0
+reportlab>=4.4.3
+pytz>=2025.2
+psutil>=7.0.0
+speedtest-cli>=2.1.3
+future>=1.0.0
+wget>=3.2
+websockets>=15.0.1
+
+# Telegram Bot Framework
+python-telegram-bot>=22.3
+
+# Additional Dependencies
+certifi>=2023.5.7
+charset-normalizer>=3.1.0
+idna>=3.4
+soupsieve>=2.4.1
+urllib3>=2.0.3
+async-lru>=2.0.2
+
+# Production Server
+gunicorn==20.1.0

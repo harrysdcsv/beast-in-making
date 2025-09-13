@@ -1,0 +1,9 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: python3 render_start.py
+
+  # for heroku deployment...add this bulidpack.  
+#  https://github.com/heroku/heroku-buildpack-activestorage-preview
+
